@@ -16,6 +16,7 @@
 		E73D441B1D056DCB00F48F4B /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D441A1D056DCB00F48F4B /* __UITests.swift */; };
 		E73D44291D056E0700F48F4B /* NextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D44281D056E0700F48F4B /* NextVC.swift */; };
 		E73D442B1D05820700F48F4B /* MypreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D442A1D05820700F48F4B /* MypreVC.swift */; };
+		E73D442F1D0CFEF400F48F4B /* PresentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E73D442E1D0CFEF400F48F4B /* PresentManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E73D441C1D056DCB00F48F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73D44281D056E0700F48F4B /* NextVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextVC.swift; sourceTree = "<group>"; };
 		E73D442A1D05820700F48F4B /* MypreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MypreVC.swift; sourceTree = "<group>"; };
+		E73D442E1D0CFEF400F48F4B /* PresentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				E73D43FA1D056DCB00F48F4B /* AppDelegate.swift */,
 				E73D43FC1D056DCB00F48F4B /* ViewController.swift */,
+				E73D442E1D0CFEF400F48F4B /* PresentManager.swift */,
 				E73D442A1D05820700F48F4B /* MypreVC.swift */,
 				E73D44281D056E0700F48F4B /* NextVC.swift */,
 				E73D43FE1D056DCB00F48F4B /* Main.storyboard */,
@@ -264,6 +267,7 @@
 			files = (
 				E73D43FD1D056DCB00F48F4B /* ViewController.swift in Sources */,
 				E73D43FB1D056DCB00F48F4B /* AppDelegate.swift in Sources */,
+				E73D442F1D0CFEF400F48F4B /* PresentManager.swift in Sources */,
 				E73D442B1D05820700F48F4B /* MypreVC.swift in Sources */,
 				E73D44291D056E0700F48F4B /* NextVC.swift in Sources */,
 			);
@@ -490,6 +494,7 @@
 				E73D44211D056DCB00F48F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73D44221D056DCB00F48F4B /* Build configuration list for PBXNativeTarget "转场Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +503,7 @@
 				E73D44241D056DCB00F48F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73D44251D056DCB00F48F4B /* Build configuration list for PBXNativeTarget "转场UITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +512,7 @@
 				E73D44271D056DCB00F48F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
